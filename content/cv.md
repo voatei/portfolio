@@ -4,72 +4,102 @@ title: CV
 
 ## Education
 
-**PhD in Computer Science** | Stanford University
-*2020 - Present*
+**Master 1 – Applied Mathematics (in progress)** | ENSIIE – National School of Computer Science for Industry and Business  
+*September 2025 – Present | Évry, France*
 
-- Research focus: Machine Learning and Natural Language Processing
-- Advisor: Prof. Jane Doe
-- GPA: 4.0/4.0
+- Courses: Supervised and unsupervised learning, stochastic processes and calculus, operations research, regression methods, time series, simulation methods, programming (Python).
 
-**Bachelor of Science in Computer Science** | MIT
-*2016 - 2020*
+**Engineering Cycle – Grande École Program – First Year (1A)** | ENSIIE  
+*September 2024 – May 2025 | Évry, France*
 
-- Graduated with Honors
-- Thesis: "Deep Learning Applications in Computer Vision"
-- GPA: 3.9/4.0
+- Courses: Probability, statistics, graph theory, data analysis, databases, programming (Java, C, OCaml).
+
+**Engineering Degree – Applied Mathematics and Statistics** | Institute of Technology of Cambodia (ITC)  
+*2021 – 2024 | Phnom Penh, Cambodia*
+
+- Preparatory cycle and intensive scientific training (common core), equivalent to French preparatory classes for Grandes Écoles.
+
+---
 
 ## Experience
 
-**Research Assistant** | Stanford AI Lab
-*September 2020 - Present*
+**AI Engineer Intern** | AI FARM ROBOTIC  
+*May 2025 – August 2025 | Phnom Penh, Cambodia*
 
-- Developing novel neural network architectures for language understanding
-- Published 5 papers in top-tier conferences (NeurIPS, ICML, ACL)
-- Mentoring 3 undergraduate researchers
+- Project: *SnapAI* – Khmer text extraction from natural scene images.
+- Implemented text detection and recognition models (EAST, PARSeq).
+- Fine-tuned deep learning models using LoRA.
+- Python development.
 
-**Software Engineering Intern** | Google Research
-*Summer 2019*
+**Entrepreneurship Challenge – 26th Edition (IMT Starter)**  
+*October – November 2025 | Évry, France*
 
-- Worked on the Google Translate team
-- Improved translation quality for low-resource languages by 15%
-- Implemented efficient caching mechanisms for model inference
+- Participated in an inter-school competition (100 teams, 6 students per team from Télécom SudParis, Institut Mines-Télécom Business School, ENSIIE).
+- Objective: create and pitch a startup project.
 
-**Teaching Assistant** | MIT
-*2018 - 2020*
-
-- Courses: Introduction to Machine Learning, Algorithms
-- Held weekly office hours and graded assignments for 200+ students
-- Developed interactive tutorials and coding exercises
-
-## Publications
-
-1. **Your Name**, Co-Author (2024). "Title of Your Paper." *Conference Name*. [Link]
-2. **Your Name**, Co-Author (2023). "Another Important Paper." *Journal Name*. [Link]
-3. Co-Author, **Your Name** (2022). "Research on Topic." *Conference*. [Link]
-
-## Skills
-
-**Programming Languages**
-Python, JavaScript, C++, Java, R
-
-**Frameworks & Tools**
-PyTorch, TensorFlow, React, Node.js, Docker, Git
-
-**Languages**
-English (Native), Spanish (Fluent), Mandarin (Intermediate)
-
-## Awards & Honors
-
-- Best Paper Award, NeurIPS 2023
-- Stanford Graduate Fellowship, 2020-2024
-- Dean's List, MIT, 2016-2020
+---
 
 ## Projects
 
-**Open Source Contributions**
-- Core contributor to popular ML library (10k+ stars on GitHub)
-- Developed and maintained PyPI package with 50k+ downloads
+**Credit Score Analysis and Risk Management** | Python  
+*September – December 2025*
 
-**Personal Projects**
-- Built web app for [specific use case] - 5,000 active users
-- Created tutorial series on YouTube with 100k+ views
+- Team project (5 members).
+- Exploratory Data Analysis (EDA) and dimensionality reduction (PCA).
+- Default risk modeling using Logistic Regression, Random Forest, and XGBoost.
+
+**Regression Methods** | R  
+*September – December 2025*
+
+- Pair project.
+- Logistic regression with variable selection (AIC, Lasso, Elastic Net).
+- Handling class imbalance.
+- Modeling high-dimensional clinical and genomic data.
+
+**Image Processing** | C  
+*December 2024 – January 2025*
+
+- Reading, writing, and processing images in PGM and PPM formats.
+
+**Hospital Appointment Management** | SQL  
+*March 2024 – May 2024*
+
+- Designed and implemented a database system for hospital appointment management.
+
+---
+
+## Skills
+
+### Technical Skills
+
+- **Python**: NumPy, Pandas, Matplotlib, Scikit-learn, OpenCV  
+- **Web Development**: HTML, CSS, PHP, SQL  
+- **Deep Learning**: PyTorch (model fine-tuning, LoRA), CNN-based text detection (EAST), sequence models (PARSeq)  
+- **Other**: R, C/C++, Java, OCaml, Bash, Git, LaTeX, Microsoft Office, Canva  
+
+### Soft Skills
+
+Adaptability, Analytical thinking, Problem solving, Curiosity, Time management, Teamwork  
+
+---
+
+## Honors & Certifications
+
+**French Government Scholarship – France Excellence**  
+*April 2024 – June 2026 | France*
+
+- Recipient of a two-year excellence scholarship.
+
+**Technovation Girls Cambodia 2020**  
+*June 2020 | Phnom Penh, Cambodia*
+
+- Top 10 National – *ROAM* application.
+- International 12-week technology entrepreneurship program.
+
+---
+
+## Languages
+
+- **Khmer**: Native  
+- **English**: B2 (IELTS)  
+- **French**: DELF B1

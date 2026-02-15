@@ -1,12 +1,12 @@
 module.exports = {
   // Site metadata
-  name: "Chonky Cat",
-  title: "Chonky Site",
+  name: "SEK Sopheak Voatei",
+  title: "SEK Sopheak Voatei Portfolio",
   description: "Bonjour to my chonky website",
 
   // SEO & Metadata
-  siteUrl: "https://userwebsite.github.io", // Your site URL (for SEO)
-  author: "Chonky Cat", // Author name (for SEO)
+  siteUrl: "https://sopheakvoateisek.github.io", // Your site URL (for SEO)
+  author: "SEK Sopheak Voatei", // Author name (for SEO)
   keywords: ["portfolio", "blog", "machine learning", "AI"], // Keywords for SEO
 
   // Favicon & Icons (optional - customize if needed)
@@ -16,7 +16,7 @@ module.exports = {
   // - icon.png (512x512) - Modern browsers & PWA
   // - apple-icon.png (180x180) - Apple devices
   // You can place custom icons in public/ folder or use app/icon.png, app/apple-icon.png
-  favicon: "/images/favicon.ico", // Set to "/custom-favicon.ico" if using custom
+  favicon: "/images/me.png", // Set to "/custom-favicon.ico" if using custom
   icon: null,    // Set to "/icon.png" if using custom
   appleIcon: null, // Set to "/apple-icon.png" if using custom
 
@@ -24,17 +24,17 @@ module.exports = {
   // Place your image in public/images/ folder (e.g., public/images/profile.jpg)
   // Then set: profileImage: "/images/profile.jpg"
   // Leave as null to show initial letter instead
-  profileImage: "/images/profile.png",
+  profileImage: "/images/me.png",
 
   // Current role and affiliation
-  role: "Your Student Position",
-  affiliation: "Your University",
+  role: "M1 student in Applied Mathematics",
+  affiliation: "École nationale supérieure d'informatique pour l'industrie et l'entreprise (ENSIIE)",
 
   // About section configuration
   aboutSection: {
     show: true,                      // Set to false to hide the About section
-    title: "Hello, I'm a Cool Cat 😼",                  // Customize the section heading (e.g., "Bonjour", "Hello", "Introduction")
-    content: `Your Introduction into Meow`     // Your introduction text (supports line breaks with \n\n)
+    title: "Personal",                  // Customize the section heading (e.g., "Bonjour", "Hello", "Introduction")
+    content: `Master’s student (M1) in Applied Mathematics at ENSIIE, with hands-on experience in applied Artificial Intelligence through a 3-month internship. Interested in Data Science and AI, particularly in their pragmatic use to automate tasks, improve operational efficiency, and deliver concrete, data-driven solutions to business needs. Currently seeking a 3-month internship in Data Science, applied AI, or digital transformation starting mid-May 2026.`     // Your introduction text (supports line breaks with \n\n)
   },
 
   // Contact section configuration
@@ -85,9 +85,9 @@ module.exports = {
   // You can use a string for plain text, or an object with { name, icon } to add lucide-react icon names
   interests: [
     { name: "Machine Learning", icon: "Brain" },
-    { name: "Natural Language Processing", icon: "MessageSquare" },
+    { name: "Computer Vision", icon: "Computer" },
     { name: "AI Development", icon: "Code" },
-    { name: "Eating Fish", icon: "Fish"}
+    { name: "Data Analysis", icon: "Database"}
   ],
 
   // Add/remove navigation items here
@@ -95,15 +95,15 @@ module.exports = {
   navigation: [
     { title: "Home", path: "/", icon: "Home" },
     { title: "CV", path: "/cv", icon: "FileText" },
-    { title: "Blog", path: "/blog", icon: "BookOpen" },
+    //{ title: "Blog", path: "/blog", icon: "BookOpen" },
+    { title: "Project", path: "/project", icon: "Code"}
   ],
 
   // Social links for footer
   social: {
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourusername",
-    twitter: "https://twitter.com/yourusername",
-    email: "your.email@example.com"
+    github: "https://github.com/voatei",
+    linkedin: "https://linkedin.com/in/sopheak-voatei-sek",
+    email: "sopheakvoateisek@gmail.com"
   },
 
   // CV Display Options
@@ -117,11 +117,15 @@ module.exports = {
   //
   // Option 3: Leave as null to render from content/cv.md (markdown)
   // The markdown option provides the best SEO and accessibility
-  cvFile: "/cv/cv.png",
+  cvFiles: {
+    en: "/cv/cv-en.pdf",
+    fr: "/cv/cv-fr.pdf",
+  },
+
 
   // CV Page Configuration
   cvConfig: {
-    showDownloadButton: false,  // Set to false to hide the download button
+    showDownloadButton: true,  // Set to false to hide the download button
     showPrintButton: false,     // Set to false to hide the print button
   },
 
@@ -132,10 +136,15 @@ module.exports = {
   //   - itemsPerPage: number of items per page for pagination (only for grid/list)
   //   - columns: number of columns for grid mode (1, 2, 3, or 4)
   pages: {
-    blog: {
-      mode: "grid",          // "simple" | "grid" | "list"
-      itemsPerPage: 6,       // For grid/list mode pagination
-      columns: 4            // For grid mode: 1, 2, 3, or 4 columns
+    // blog: {
+    //   mode: "grid",          // "simple" | "grid" | "list"
+    //   itemsPerPage: 6,       // For grid/list mode pagination
+    //   columns: 4            // For grid mode: 1, 2, 3, or 4 columns
+    // },
+    project: {
+      mode: "grid",
+      itemsPerPage: 12,
+      columns: 2
     },
     // Add more pages here as needed:
     // pagename: { mode: "grid", itemsPerPage: 9, columns: 3 }
@@ -145,13 +154,21 @@ module.exports = {
   // Configure what content sections appear on the home page
   // Each section can show latest items from a specific page (blog, projects, etc.)
   homeSections: [
+    // {
+    //   type: "Blog",           // Type of content to display (matches folder name in content/)
+    //   title: "Latest Posts",  // Section title
+    //   count: 1,              // Number of items to show
+    //   showViewAll: true,     // Show "View All" button
+    //   viewAllText: "View All Posts",
+    //   viewAllLink: "/blog"
+    // },
     {
-      type: "blog",           // Type of content to display (matches folder name in content/)
-      title: "Latest Posts",  // Section title
-      count: 3,              // Number of items to show
-      showViewAll: true,     // Show "View All" button
-      viewAllText: "View All Posts",
-      viewAllLink: "/blog"
+      type: "Project",
+      title: "Featured Projects",
+      count: 2,
+      showViewAll: true,
+      viewAllText: "View All Projects", 
+      viewAllLink: "/project"
     }
   ]
 }
