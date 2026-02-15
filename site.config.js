@@ -96,7 +96,7 @@ module.exports = {
     { title: "Home", path: "/", icon: "Home" },
     { title: "CV", path: "/cv", icon: "FileText" },
     //{ title: "Blog", path: "/blog", icon: "BookOpen" },
-    { title: "Project", path: "/project", icon: "Code"}
+    { title: "Project", path: "project", icon: "Code"}
   ],
 
   // Social links for footer
@@ -168,7 +168,7 @@ module.exports = {
       count: 2,
       showViewAll: true,
       viewAllText: "View All Projects", 
-      viewAllLink: "project"
+      viewAllLink: "content/project"
     }
   ]
 }
