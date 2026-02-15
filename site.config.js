@@ -16,7 +16,7 @@ module.exports = {
   // - icon.png (512x512) - Modern browsers & PWA
   // - apple-icon.png (180x180) - Apple devices
   // You can place custom icons in public/ folder or use app/icon.png, app/apple-icon.png
-  favicon: "/images/me.png", // Set to "/custom-favicon.ico" if using custom
+  favicon: "images/me.png", // Set to "/custom-favicon.ico" if using custom
   icon: null,    // Set to "/icon.png" if using custom
   appleIcon: null, // Set to "/apple-icon.png" if using custom
 
