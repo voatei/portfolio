@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const repo = "sopheakvoateisek.github.io";
+const repo = "portfolio";
 
 const nextConfig = {
   output: "export",
