@@ -6,18 +6,21 @@ import siteConfig from '../site.config'
 export default function CVButtons() {
   const cvFiles = siteConfig.cvFiles || {}
 
-  // Config toggles
   const showDownloadBtn = siteConfig.cvConfig?.showDownloadButton !== false
   const showPrintBtn = siteConfig.cvConfig?.showPrintButton !== false
 
   const handlePrint = () => window.print()
 
+  // ✅ basePath for your current deployment
+  const basePath = '/portfolio'
+
+  const toCvAsset = (filename) => `${basePath}/cv/${filename}`
+
   return (
     <div className="flex gap-3 flex-wrap print:hidden">
-      {/* EN Download */}
       {showDownloadBtn && cvFiles.en && (
         <a
-          href={cvFiles.en}
+          href={toCvAsset(cvFiles.en)}
           download
           className="inline-flex items-center gap-2 px-4 py-2 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-lg hover:bg-gray-700 dark:hover:bg-slate-200 transition-colors text-sm font-medium shadow-sm"
         >
@@ -26,10 +29,9 @@ export default function CVButtons() {
         </a>
       )}
 
-      {/* FR Download */}
       {showDownloadBtn && cvFiles.fr && (
         <a
-          href={cvFiles.fr}
+          href={toCvAsset(cvFiles.fr)}
           download
           className="inline-flex items-center gap-2 px-4 py-2 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-lg hover:bg-gray-700 dark:hover:bg-slate-200 transition-colors text-sm font-medium shadow-sm"
         >
@@ -38,7 +40,6 @@ export default function CVButtons() {
         </a>
       )}
 
-      {/* Print */}
       {showPrintBtn && (
         <button
           onClick={handlePrint}
