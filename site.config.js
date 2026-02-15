@@ -163,7 +163,7 @@ module.exports = {
     //   viewAllLink: "/blog"
     // },
     {
-      type: "Project",
+      type: "project",
       title: "Featured Projects",
       count: 2,
       showViewAll: true,
