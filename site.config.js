@@ -24,7 +24,7 @@ module.exports = {
   // Place your image in public/images/ folder (e.g., public/images/profile.jpg)
   // Then set: profileImage: "/images/profile.jpg"
   // Leave as null to show initial letter instead
-  profileImage: "/images/me.png",
+  profileImage: "images/me.png",
 
   // Current role and affiliation
   role: "M1 student in Applied Mathematics",
@@ -168,7 +168,7 @@ module.exports = {
       count: 2,
       showViewAll: true,
       viewAllText: "View All Projects", 
-      viewAllLink: "/project"
+      viewAllLink: "project"
     }
   ]
 }
